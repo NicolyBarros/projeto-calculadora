@@ -1,0 +1,55 @@
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.2em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.wrapper{
+    background-color: black;
+    border-radius: 1em;
+    margin: 3em;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr ;
+    justify-items: center;
+}
+
+.wrapper3{
+    border-radius: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.wrapper2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.orange{
+    background-color: #FF9500;
+    color: white;
+}
+
+.grey{
+    background-color: #DFDFDE;
+}
+
+.gray{
+    background-color: gray;
+    color: white;
+}
+
+.result{
+    color: white;
+    font-size: 3em;
+}
